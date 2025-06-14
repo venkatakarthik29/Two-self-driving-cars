@@ -32,3 +32,4 @@ coverage/
 *.swp
 
 *.png
+tf_env/
