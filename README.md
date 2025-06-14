@@ -85,3 +85,21 @@ The model is trained using CNN on driving image frames with corresponding steeri
 - matplotlib
 - opencv-python
 - jupyter
+
+## 🧠 Conceptual Notes
+
+### Lane Detection
+- Applies Canny Edge Detection to highlight edges.
+- Uses Region of Interest (ROI) to filter lane area.
+- Hough Line Transform detects straight lines.
+
+### Deep Learning for Steering
+- A CNN model trained on image frames from a front-facing camera.
+- Predicts steering angles based on visual input.
+
+### Control Logic
+- The predicted angle is fed to a car simulation.
+- Adjusts throttle and steering in real-time.
+
+### Tools Used
+- Python, OpenCV, TensorFlow, NumPy, Matplotlib
